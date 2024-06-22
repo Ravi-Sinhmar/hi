@@ -2,12 +2,12 @@
   "name": "tailwind-css",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "Index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
-    "build:css": "postcss public/tailwind.css -o public/output.css "
+    "start": "node Index.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
